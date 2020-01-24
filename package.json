@@ -1,0 +1,30 @@
+{
+  "name": "basic-http-class-example",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.14.1",
+    "npm": "6.13.6"
+  },
+  "description": "Nope Web Server",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deb2610/basic-http-class-example.git"
+  },
+  "author": "Olive Behan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/deb2610/basic-http-class-example/issues"
+  },
+  "homepage": "https://github.com/deb2610/basic-http-class-example#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
